@@ -1388,7 +1388,7 @@
     <title>AirVentra | Admin Dashboard</title>
 
     <!-- Favicon -->
-<link rel="shortcut icon" href="http://localhost/AirVentra/images/favicon.ico">
+<link rel="shortcut icon" href="./tasks_files/favicon.ico">
 <link rel="stylesheet" href="./tasks_files/libs.min.css">
 <link rel="stylesheet" href="./tasks_files/hope-ui.css">
 <link rel="stylesheet" href="./tasks_files/custom.css">
@@ -1954,9 +1954,9 @@
 </div>
 <aside class="sidebar sidebar-default navs-rounded-all sidebar-base">
     <div class="sidebar-header d-flex align-items-center justify-content-start">
-        <a href="http://localhost/AirVentra/dashboard" class="navbar-brand">
+        <a href="dashboard.html" class="navbar-brand">
            
-            </a><a href="http://localhost/AirVentra" class="navbar-brand p-0">
+            </a><a href="index.html" class="navbar-brand p-0">
             <img src="./tasks_files/logo_b.png" alt="Logo" class="img-fluid" style="max-height: 100px;"> <!-- Adjust max-height as needed -->
             </a>
         
@@ -1973,7 +1973,7 @@
         <div class="sidebar-list" id="sidebar">
         <ul class="navbar-nav iq-main-menu" id="sidebar">
         <li class="nav-item dropdown">
-          <a class="py-0 nav-link d-flex align-items-center" href="http://localhost/AirVentra/tasks#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="py-0 nav-link d-flex align-items-center" href="tasks.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           <img src="./tasks_files/01.png" alt="User-Profile" class="theme-color-default-img img-fluid avatar avatar-50 avatar-rounded">
           <img src="./tasks_files/avtar_1.png" alt="User-Profile" class="theme-color-purple-img img-fluid avatar avatar-50 avatar-rounded">
           <img src="./tasks_files/avtar_2.png" alt="User-Profile" class="theme-color-blue-img img-fluid avatar avatar-50 avatar-rounded">
@@ -1989,7 +1989,7 @@
             <!-- <li><a class="dropdown-item" href="http://localhost/AirVentra/users/1">Profile</a></li>
             <li><a class="dropdown-item" href="http://localhost/AirVentra/auth/userprivacysetting">Privacy Setting</a></li> -->
             <!-- <li><hr class="dropdown-divider"></li> -->
-            <li><form method="POST" action="http://localhost/AirVentra/logout">
+            <li><form method="POST" action="index.html">
               <input type="hidden" name="_token" value="roaMna0hKjqKfLveSFZaGK6J3by5xOx2SLias0Xt">              <a href="javascript:void(0)" class="dropdown-item" onclick="event.preventDefault();
               this.closest(&#39;form&#39;).submit();">
                   Log out
@@ -2000,7 +2000,7 @@
         </li>
 
     <li class="nav-item">
-        <a class="nav-link " aria-current="page" href="http://localhost/AirVentra/dashboard">
+        <a class="nav-link " aria-current="page" href="dashboard.html">
             <i class="icon">
                 <svg width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path opacity="0.4" d="M16.0756 2H19.4616C20.8639 2 22.0001 3.14585 22.0001 4.55996V7.97452C22.0001 9.38864 20.8639 10.5345 19.4616 10.5345H16.0756C14.6734 10.5345 13.5371 9.38864 13.5371 7.97452V4.55996C13.5371 3.14585 14.6734 2 16.0756 2Z" fill="currentColor"></path>
@@ -2015,13 +2015,13 @@
         <hr class="hr-horizontal">
     </li>
     <li class="nav-item static-item">
-        <a class="nav-link static-item disabled" href="http://localhost/AirVentra/tasks#" tabindex="-1">
+        <a class="nav-link static-item disabled" href="tasks.html" tabindex="-1">
             <span class="default-icon">Pages</span>
             
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="http://localhost/AirVentra">
+        <a class="nav-link" href="index.html">
             <i class="icon">
                 <img width="24" height="24" src="./tasks_files/home--v2.png" alt="home--v2">
             </i>
@@ -2029,7 +2029,7 @@
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="http://localhost/AirVentra/options">
+        <a class="nav-link" href="options.html">
             <i class="icon">
             <svg width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path opacity="0.4" d="M10.0833 15.958H3.50777C2.67555 15.958 2 16.6217 2 17.4393C2 18.2559 2.67555 18.9207 3.50777 18.9207H10.0833C10.9155 18.9207 11.5911 18.2559 11.5911 17.4393C11.5911 16.6217 10.9155 15.958 10.0833 15.958Z" fill="currentColor"></path>
@@ -2045,7 +2045,7 @@
 
 
 <li class="nav-item">
-    <a class="nav-link" href="http://localhost/AirVentra/tasks">
+    <a class="nav-link" href="tasks.html">
         <i class="icon">
             <svg width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.4" d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3Z" fill="currentColor"></path>
@@ -2146,13 +2146,13 @@
                                 <h4 class="card-title">Task Completion Trend</h4>
                             </div>
                             <div id="taskCompletionFilter" class="dropdown">
-                                <a href="http://localhost/AirVentra/tasks#" class="text-gray dropdown-toggle" id="dropdownMenuButtonTask" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a href="tasks.html" class="text-gray dropdown-toggle" id="dropdownMenuButtonTask" data-bs-toggle="dropdown" aria-expanded="false">
                                     By Date
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end custom-dropdown-menu-end" aria-labelledby="dropdownMenuButtonTask">
-                                    <li><a class="dropdown-item filter-option" href="http://localhost/AirVentra/tasks#" data-value="day">Daily</a></li>
-                                    <li><a class="dropdown-item filter-option" href="http://localhost/AirVentra/tasks#" data-value="week">Weekly</a></li>
-                                    <li><a class="dropdown-item filter-option" href="http://localhost/AirVentra/tasks#" data-value="month">Monthly</a></li>
+                                    <li><a class="dropdown-item filter-option" href="tasks.html" data-value="day">Daily</a></li>
+                                    <li><a class="dropdown-item filter-option" href="tasks.html" data-value="week">Weekly</a></li>
+                                    <li><a class="dropdown-item filter-option" href="tasks.html" data-value="month">Monthly</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -2260,7 +2260,7 @@
                                             </span>
                                         </td>
                                     </tr></tbody>
-                        </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="datatable_info" role="status" aria-live="polite">Showing 1 to 4 of 4 entries</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="datatable_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="datatable_previous"><a aria-controls="datatable" aria-disabled="true" role="link" data-dt-idx="previous" tabindex="-1" class="page-link">Previous</a></li><li class="paginate_button page-item active"><a href="http://localhost/AirVentra/tasks#" aria-controls="datatable" role="link" aria-current="page" data-dt-idx="0" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next disabled" id="datatable_next"><a aria-controls="datatable" aria-disabled="true" role="link" data-dt-idx="next" tabindex="-1" class="page-link">Next</a></li></ul></div></div></div></div>
+                        </table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="datatable_info" role="status" aria-live="polite">Showing 1 to 4 of 4 entries</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="datatable_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="datatable_previous"><a aria-controls="datatable" aria-disabled="true" role="link" data-dt-idx="previous" tabindex="-1" class="page-link">Previous</a></li><li class="paginate_button page-item active"><a href="tasks.html" aria-controls="datatable" role="link" aria-current="page" data-dt-idx="0" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next disabled" id="datatable_next"><a aria-controls="datatable" aria-disabled="true" role="link" data-dt-idx="next" tabindex="-1" class="page-link">Next</a></li></ul></div></div></div></div>
                     </div>
                 </div>
             </div>
@@ -2528,8 +2528,8 @@
     <footer class="footer">
     <div class="footer-body">
         <ul class="left-panel list-inline mb-0 p-0">
-            <li class="list-inline-item"><a href="http://localhost/AirVentra/privacy-policy">Privacy Policy</a></li>
-            <li class="list-inline-item"><a href="http://localhost/AirVentra/terms-of-use">Terms of Use</a></li>
+            <li class="list-inline-item"><a href="">Privacy Policy</a></li>
+            <li class="list-inline-item"><a href="">Terms of Use</a></li>
         </ul>
         <div class="right-panel">
             ©<script>document.write(new Date().getFullYear())</script>2025  AirVentra, Made with
